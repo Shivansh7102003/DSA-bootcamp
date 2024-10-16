@@ -28,19 +28,18 @@ class Queue():
         else:
             self.queue = self.queue[1:]
 
-if"__name__" == "__main__":
-  queue = Queue()
+queue = Queue()
 
-  queue.enque(5)
-  queue.enque(6)
-  queue.enque(7)
+queue.enque(5)
+queue.enque(6)
+queue.enque(7)
 
-  queue.display()
+queue.display()
 
-  queue.enque(8)
+queue.enque(8)
 
-  queue.deque()
-  queue.display()
+queue.deque()
+queue.display()
 
 
 

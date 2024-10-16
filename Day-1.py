@@ -21,10 +21,12 @@ class Stack():
         print("current stack is:" , self.stack)
 
 
-if "__name__" == "__main__":
-  stack = Stack()
-  stack.is_empty()
-  stack.push(5)
-  stack.display()
-  stack.pop()
-  stack.display()
+
+stack = Stack()
+stack.is_empty()
+stack.push(5)
+stack.push(6)
+stack.push(7)
+stack.display()
+stack.pop()
+stack.display()
