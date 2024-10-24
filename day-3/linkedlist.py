@@ -64,3 +64,4 @@ linked_list.delete_node(2)
 
 print("Linked List after deleting node with key 2:")
 linked_list.print_list()
+
